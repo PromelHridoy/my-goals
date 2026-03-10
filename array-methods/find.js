@@ -61,7 +61,8 @@ const result22 = nums22.find((num,index)=> num > index);
 console.log(result22);
 
 const values = [0,null,"",NaN,false,undefined,"hello"];
-const result211 = values.find(v => v);
+// const result211 = values.find(v => v);
+const result211 = values.find(Boolean);
 console.log(result211);
 
 const texts = ["hi","hello world","ok"];
